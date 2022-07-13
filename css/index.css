@@ -1,0 +1,195 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: rgba(0, 0, 0, .8);
+	font-family: calibri;
+}
+
+.generalCont{
+	background: ;
+	width: 380px;
+	height: 789px;
+	margin: 0 auto;
+	padding: 65px 30px;
+
+}
+
+.phoneCont{
+	background: #111;
+	border-radius: 25px;
+	padding: 10px;
+	width: 320px;
+	height: 659px;
+
+}
+
+.designCont{
+	background-image: url(../img/fondo3.jpg);
+	background-size: cover;
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+
+}
+
+.headerCont{
+	border-radius: 20px 20px 0px 0px;
+	/*background: #111;*/
+	width: 100%;
+	height: 25px;
+}
+
+.clearBoth{
+	clear: both;
+}
+
+.timeContLeft{
+	border-radius: 20px 0px 0px 0px;
+	/*background: #111;*/
+	width: 45%;
+	height: 100%; 
+	float: left;
+	padding: 5px 10px;
+}
+
+/*.timeContLeft */
+
+.timeContLeft p{
+	color: white;
+	font-size: 15px;
+	height: 15px;
+	float: left;
+}
+
+.iconCont{
+	/*background: white;*/
+	margin: 0 0 0 5px;
+	width: 15px;
+	height: 15px;
+	float: left;
+}
+
+/*.iconCont i{
+	color:  white;
+	font-weight: normal;
+}*/
+
+
+.iconCont img{
+	width: 100%;
+	height: 100%;
+}
+
+.cameraCont{
+	border-radius: 0px 0px 0px 0px;
+	/*background: #111;*/
+	width: 10%;
+	height: 100%;
+	padding: 2.5px;
+	float: left;
+}
+
+.cameraLens{
+	border-radius: 50%;
+	background: #000;
+	width: 20px;
+	height: 20px;
+	padding: 3px;
+	margin: 0 auto;
+}
+
+.centralCameraLens-01{
+	border-radius: 50%;
+	background: #202020;
+	width: 14px;
+	height: 14px;
+	padding: 3px;
+	margin: 0 auto;
+}
+
+.centralCameraLens-02{
+	border-radius: 50%;
+	background: #000;
+	width: 8px;
+	height: 8px;
+	margin: 0 auto;
+}
+
+.timeContRight{
+	border-radius: 0px 20px 0px 0px;
+	/*background: #111;*/
+	width: 45%;
+	height: 100%; 
+	float: left;
+	padding: 5px 10px;
+	text-align: right;
+}
+
+.timeContRight p{
+	color: white;
+	font-size: 15px;
+}
+
+
+/* MAIN */
+.mainCont{
+	width: 100%;
+	height: 600px;
+	padding: 10px;
+}
+
+.appCont{
+	width: 70px;
+	height: 85px;
+	float: left;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+}
+
+.appLI{
+	width: 55px;
+	height: 55px;
+	padding: 5px;
+}
+
+.appLI img{
+	width: 45px;
+	height: 45px;
+}
+
+.nameAppLI{
+	width: 55px;
+	height: 20px;
+	padding: 5px 0;
+	text-align: center;	
+}
+
+.nameAppLI p{
+	color: white;
+	font-size: 10px;
+	height: 10px;
+}
+
+/* FOOTER */
+.footerCont{
+	border-radius: 0px 0px 20px 20px;
+	width: 100%;
+	height: 14px;	
+}
+
+.lineCont{
+	border-radius: 0px 0px 20px 20px;
+	width: 40%;
+	height: 14px;
+	margin: 0 auto;
+	padding: 6px;	
+}
+
+.lineCont hr{
+	border: 2px solid white;
+	border-radius: 10px;
+}
